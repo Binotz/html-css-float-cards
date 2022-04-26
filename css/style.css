@@ -5,9 +5,13 @@
     box-sizing: border-box;
 }
 
+header{
+    text-align: center;
+}
+
 body{
     font-family: 'Fredoka', sans-serif;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 p{
@@ -31,13 +35,13 @@ h1{
 .container{
     width: 80%;
     margin: auto;
-    text-align: center;
 }
 
 .column{
     padding: 20px;
     width: calc(100% / 3);
     float: left;
+
 }
 
 .card{
@@ -53,13 +57,25 @@ h1{
 .description{
     width: calc(100% * 3/4);
     float:left;
-    padding: 10px;
+    font-size: larger;
+    padding: 15px;
 }
 
 .description > * {
-    float: left;
+    display: inline-block;
+    margin: 7px;
+    font-size: 20px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 23px;
 }
 
 .blue-text{
     color: #17ccf2;
+}
+
+.job{
+    font-weight: 400;
 }
