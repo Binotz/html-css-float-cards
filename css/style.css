@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    color: #e53170;
+    font-weight: 700;
+    padding: 30px;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
