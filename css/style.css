@@ -47,6 +47,7 @@ h1{
 .card{
     background-color: black;
     color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.7);
 }
 
 .profile-pic{
