@@ -1,3 +1,4 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -9,15 +10,56 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+p{
+    margin: 30px 0px;
+}
+
+
 h1{
     color: #e53170;
     font-weight: 700;
     padding: 30px;
 }
 
+/* Common */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .container{
     width: 80%;
     margin: auto;
     text-align: center;
+}
+
+.column{
+    padding: 20px;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.card{
+    background-color: black;
+    color: white;
+}
+
+.profile-pic{
+    width: calc(100% * 1/4);
+    float:left;
+}
+
+.description{
+    width: calc(100% * 3/4);
+    float:left;
+    padding: 10px;
+}
+
+.description > * {
+    float: left;
+}
+
+.blue-text{
+    color: #17ccf2;
 }
